@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
-from poly import Polynomial 
-from parameters import Highest
+from poly import Polynomial
 
 def invert_in_2(a,N):
     """ fast inverse algorithm mod 2 """

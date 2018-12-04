@@ -1,16 +1,16 @@
 import sys
 sys.path.append("..")
 
-from parameters import Highest
+from parameters import Standard
 from poly import Polynomial
 from ntru_poly_ops import invert_in_p, invert_in_2tor
 
 import unittest
 
-class TestParameters(unittest.TestCase):
+class TestSimpleEncrypt(unittest.TestCase):
 
     def test_full_run(self):
-        x = Highest()
+        x = Standard()
 
         f = x.gen_fPoly()
         g = x.gen_gPoly()
@@ -32,4 +32,5 @@ class TestParameters(unittest.TestCase):
 
 
 if __name__ == '__main__':
+    print("Testing simple encryption and decryption")
     unittest.main()

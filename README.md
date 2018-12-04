@@ -15,13 +15,22 @@ pip3 install -r requirements.txt
 
 ## Using
 
-You can use the Parameters object to generate private and public keys. Look at the encryption test for examples.
+As this is purley for research, there is not much of a higher level API exposed. Although the ```ntru_key_object.py``` would be the place to go for those interested. Also, check out the ```keys``` directory.
+
+## Change Log
+
+[Change Log](https://github.com/smarky7CD/PyNTRU/blob/master/changelog.md)
 
 ## Testing
+
+### Unit Tests
 
 * Polynomial: Passing
 * NTRU Polynomial Operations: Passing
 * NTRU Parameters (Polynomial Generation): Passing
 * Encryption and Decryption: Passing
+* NTRUKey Object: Passing
 
+### User Testing
+* Key Exporting and Importing: Pssing
 

@@ -38,4 +38,5 @@ class TestPolynomials(unittest.TestCase):
         self.assertFalse(len(a) == len(g))
                     
 if __name__ == '__main__':
+    print("Testing polynomials...")
     unittest.main()
