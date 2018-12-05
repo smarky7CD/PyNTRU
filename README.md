@@ -1,6 +1,6 @@
 # PyNTRU
 
-This is my version of NTRUEncrypt written in Python 3. It is currently for research purposes only. I strongly reccomend (perhaps demand) that this implementation is not used for sensitive data. It has not been vetted and is probably insecure.
+This is my version of NTRUEncrypt written in Python 3. It is currently for research purposes only. I strongly recommend (perhaps demand) that this implementation is not used for sensitive data. It has not been vetted and is probably insecure.
 
 
 ## Install
@@ -15,7 +15,7 @@ pip3 install -r requirements.txt
 
 ## Using
 
-As this is purley for research, there is not much of a higher level API exposed. Although the ```ntru_key_object.py``` would be the place to go for those interested. Also, check out the ```keys``` directory.
+As this is purely for research, there is not much of a higher level API exposed. Although the ```ntru_key_object.py``` would be the place to go for those interested. Also, check out the ```keys``` directory.
 
 ## Change Log
 
@@ -32,5 +32,5 @@ As this is purley for research, there is not much of a higher level API exposed.
 * NTRUKey Object: Passing
 
 ### User Testing
-* Key Exporting and Importing: Pssing
+* Key Exporting and Importing: Passing
 

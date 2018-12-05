@@ -6,7 +6,7 @@ import Crypto.Random.random as CR
 class Parameters():
 
     def __init__(self, N, p, q, df, dg, dr):
-        """Security paramaters for NTRU"""
+        """Security parameters for NTRU"""
         self._N = N
         self._p = p
         self._q = q
