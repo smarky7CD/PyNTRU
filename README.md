@@ -1,6 +1,6 @@
 # PyNTRU
 
-This is my version of NTRUEncrypt written in Python 3. It is currently for research purposes only. I strongly recommend (perhaps demand) that this implementation is not used for sensitive data. It has not been vetted and is probably insecure.
+This is my version of NTRUEncrypt written in Python 3. It is currently for research purposes only. I strongly recommend (perhaps demand) that this implementation is not used for sensitive data. It has not been vetted and is insecure.
 
 
 ## Install
